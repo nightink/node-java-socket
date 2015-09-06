@@ -1,19 +1,14 @@
-package ui;
+package client.src.ui;
 
 /**
- * Node.js广播消息客户端
- * @author Nightink
- *
+ * node.js 广播消息客户端
+ * @author nightink
  */
-
 public class ClientStart {
-    
-    /**
-     * @param args
-     */
-    public static void main(String[] args) {
-        new ClientFrame();
-    }
-    
-
+  /**
+   * @param args
+   */
+  public static void main(String[] args) {
+    new ClientFrame();
+  }
 }
